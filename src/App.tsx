@@ -1,4 +1,5 @@
 import './App.css';
+import MapTest from './MapTest';
 import TodoList from './Todolist';
 
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className='container'>
       <TodoList></TodoList>
+      <MapTest></MapTest>
     </div>
   );
 }
