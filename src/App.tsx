@@ -1,6 +1,5 @@
 import './App.css';
-import ClassCom from './ClassCom';
-import FuncCom from './FuncCom';
+import TodoList from './Todolist';
 
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
 
   return (
     <div className='container'>
-      <ClassCom></ClassCom>
-      <FuncCom></FuncCom>
+      <TodoList></TodoList>
     </div>
   );
 }
