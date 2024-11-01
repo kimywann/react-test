@@ -1,6 +1,7 @@
 import './App.css';
 import TodoList from './Todolist';
 import Clock from './Timer';
+import MyWeather from './MyWeather';
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <div className='container'>
       <TodoList></TodoList>
-      <Clock></Clock>
+      {/* <Clock></Clock> */}
+      <MyWeather weather='맑음'>일기 예보</MyWeather>
     </div>
   );
 }
